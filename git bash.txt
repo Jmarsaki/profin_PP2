@@ -1,0 +1,24 @@
+Propietario@DESKTOP-266MGEJ MINGW64 ~
+$ git clone https://github.com/jmarsaki/profin_PP2.git
+Cloning into 'profin_PP2'...
+remote: Enumerating objects: 93, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 93 (delta 2), reused 0 (delta 0), pack-reused 86
+Receiving objects: 100% (93/93), 312.69 KiB | 1.50 MiB/s, done.
+Resolving deltas: 100% (48/48), done.
+
+Propietario@DESKTOP-266MGEJ MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Propietario/.git/
+
+Propietario@DESKTOP-266MGEJ MINGW64 ~ (master)
+$ git remote add origin https://github.com/jmarsaki/profin_PP2.git
+
+Propietario@DESKTOP-266MGEJ MINGW64 ~ (master)
+$ git push -u origin master
+
+Propietario@DESKTOP-266MGEJ MINGW64 ~ (master)
+$ git remote -v
+origin  https://github.com/jmarsaki/profin_PP2.git (fetch)
+origin  https://github.com/jmarsaki/profin_PP2.git (push)
