@@ -13,6 +13,14 @@ import numpy as np
 from src/metricas/metricas_decisiontreeclassifier import metricas_decisiontreeclassifier.py
 from src/metricas/metricas_regline import metricas_regline.py
 from src/metricas/metricas_reglog import metricas_reglog.py
+from model import modelo_arbol_decision.joblib
+from model import modelo_regresion_lineal.joblib
+from model import modelo_regresion_logistica.joblib
+from test import test_unit.py
+from test import test_estat.py
+from test import test_eval.py
+from test import test_posttrain.py
+from test import test_pretain.py
 from sklearn.metrics import accuracy_score
 from statsmodels.stats.weightstats import ttest_ind
 from sklearn.metrics import mean_squared_error
