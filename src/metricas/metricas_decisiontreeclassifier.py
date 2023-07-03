@@ -9,9 +9,6 @@ Original file is located at
 ##Métricas para DecisionTreeClassifier
 """
 
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix
-
 # Crear y entrenar el modelo de clasificación
 model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
