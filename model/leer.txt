@@ -1,0 +1,1 @@
+Estos tres modelos pretenecen a modelos entrenados de los tres algoritmos utilizados en el proyecto.
