@@ -13,33 +13,30 @@ import numpy as np
 from src/metricas/metricas_decisiontreeclassifier import metricas_decisiontreeclassifier.py
 from src/metricas/metricas_regline import metricas_regline.py
 from src/metricas/metricas_reglog import metricas_reglog.py
+from sklearn.metrics import accuracy_score
+from statsmodels.stats.weightstats import ttest_ind
+from sklearn.metrics import mean_squared_error
+from sklearn import tree
+from sklearn.metrics import confusion_matrix
+import seaborn as sb
+import joblib
+
+# Preprocesado y modelado
+# ==============================================================================
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn import model_selection
 from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import accuracy_score
-import seaborn as sb
-import joblib
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
 
 # Gráficos
 # ==============================================================================
 import matplotlib.pyplot as plt
 from matplotlib import style
-import seaborn as sns
-
-# Preprocesado y modelado
-# ==============================================================================
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
-from statsmodels.stats.weightstats import ttest_ind
-from sklearn.metrics import mean_squared_error
-from sklearn import tree
-
 
 # Configuración warnings
 # ==============================================================================
