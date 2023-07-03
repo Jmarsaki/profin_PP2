@@ -10,6 +10,8 @@ Original file is located at
 # importación de librerias
 import pandas as pd
 import numpy as np
+from carpeta_metricas.archivo_metricas1 import funcion_metrica1
+from carpeta_metricas.archivo_metricas2 import clase_metrica2
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
