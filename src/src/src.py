@@ -37,14 +37,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
-
-
 # Configuración warnings
 # ==============================================================================
 import warnings
 warnings.filterwarnings('ignore')
 
 # Se crea el dataframe
+
 df=pd.read_csv("data/Unitsdollars_Excel.csv")
 df=df.replace(np.nan,"0")
 
