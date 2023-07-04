@@ -21,7 +21,6 @@ from test import test_estat.py
 from test import test_eval.py
 from test import test_posttrain.py
 from test import test_pretain.py
-from sklearn.metrics import accuracy_score
 from statsmodels.stats.weightstats import ttest_ind
 from sklearn import tree
 from sklearn.metrics import confusion_matrix
