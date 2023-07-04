@@ -8,12 +8,11 @@ Original file is located at
 
 ##Métricas para regresión lineal
 """
+from sklearn.metrics import mean_squared_error
 
 # Evaluar el modelo utilizando el error cuadrático medio (MSE)
 mse = mean_squared_error(y_test, y_pred)
 print("Error Cuadrático Medio (MSE):", mse)
-
-from sklearn.metrics import mean_squared_error
 
 # Calcular la raíz del error cuadrático medio (RMSE)
 rmse = np.sqrt(mse)
