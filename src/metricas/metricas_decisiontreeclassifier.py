@@ -8,6 +8,8 @@ Original file is located at
 
 ##Métricas para DecisionTreeClassifier
 """
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
 
 # Crear y entrenar el modelo de clasificación
 model = DecisionTreeClassifier()
