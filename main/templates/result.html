@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados del Cálculo</title>
+</head>
+<body>
+    <h1>Resultados del Cálculo</h1>
+    <p>Incremento anual de data_value:</p>
+    {% for year, incremento_info in resultados.items() %}
+        <p>Año {{ year }}: Incremento: {{ incremento_info.incremento }}, Porcentaje: {{ incremento_info.incremento_porcentaje }}%</p>
+    {% endfor %}
+    <!-- Mostrar otros resultados aquí -->
+</body>
+</html>
