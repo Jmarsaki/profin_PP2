@@ -14,7 +14,6 @@ Rama entrenamiento
 import pandas as pd
 import numpy as np
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.metrics import r2_score
 import joblib
 
 file_df = 'Unitsdollars_Excel.csv'
@@ -46,10 +45,6 @@ prediccion_2022 = arbol_regresor.predict(valor_prediccion_2022)
 promedio_2021 = average_values.loc[2021]
 promedio_2022 = prediccion_2022[0]
 incremento_2022 = promedio_2022 - promedio_2021
-
-# Calcular el coeficiente de determinación (R2 score)
-predicciones_entrenamiento = arbol_regresor.predict(year)
-r2 = r2_score(promedio_anual, predicciones_entrenamiento)
 
 # Realizar la predicción en el rango de años para obtener la línea de ajuste
 year_rango = np.arange(year.min(), year.max() + 1).reshape(-1, 1)
