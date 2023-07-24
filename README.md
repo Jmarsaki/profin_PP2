@@ -7,7 +7,7 @@ Carpeta "data": Contendrá los conjuntos de datos utilizados para el entrenamien
 Carpeta "testing": Contendrá los script de testing del modelo.
 Archivo "main": Contiene al código fuente de la aplicación en lenguaje Python y los recursos necesarios para montarlo como aplicación desde Flask.
 README.md: Es el texto con las especificaciones del modelo.
- # Indicaciones para poder poner en marcha esta aplicación
+ # Indicaciones para poner en marcha la aplicación
  Para activar desde Flask, esta aplicación que se encuentra en un repositorio de GitHub, por ejemplo, desde Visual Studio Code, se pueden seguir los pasos:
     1. Clonar el repositorio: Abrir Visual Studio Code y clonar el repositorio de GitHub que contiene la aplicación (Flask). Esto se puede hacer  desde la barra lateral de Visual Studio Code haciendo clic en el icono de Git (tercer icono de la izquierda) y luego en "Clonar Repositorio". Se ingresa la URL del repositorio y se selecciona una ubicación local para clonarlo.
     2. Configurar el entorno virtual (opcional): Es recomendable la utilización de un entorno virtual para tu aplicación Flask. Desde la terminal de Visual Studio Code, navegar hasta la carpeta del proyecto y crear un entorno virtual con el siguiente comando (reemplaza "venv" con el nombre que desees para el entorno virtual):
