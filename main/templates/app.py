@@ -168,7 +168,7 @@ print("Impacto en Oportunidades 2022:", impacto_oportunidades_2022)
 print("Impacto en Debilidades 2022:", impacto_debilidades_2022)
 print("Impacto en Amenazas 2022:", impacto_amenazas_2022)
 
-    return resultados
+return resultados
 
 if __name__ == '__main__':
     app.run(debug=True)
