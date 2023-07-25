@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Resultados del Cálculo</title>
+    <title>Resultados de la Predicción</title>
 </head>
 <body>
-    <h1>Resultados del Cálculo</h1>
-    <p>Incremento anual de data_value:</p>
-    {% for year, incremento_info in resultados.items() %}
-        <p>Año {{ year }}: Incremento: {{ incremento_info.incremento }}, Porcentaje: {{ incremento_info.incremento_porcentaje }}%</p>
-    {% endfor %}
-    <!-- Mostrar otros resultados aquí -->
+    <h1>Resultados de la Predicción</h1>
+    <p>Predicción para el año 2022: {{ resultados.prediccion_2022 }}</p>
+    <p>Incremento de producción para 2022: {{ resultados.incremento_2022 }}</p>
+    <p>Porcentaje de incremento para 2022: {{ resultados.incremento_porcentaje_2022 }}%</p>
+
+    <h2>Incrementos Anuales</h2>
+    <table>
+        <tr>
+            <th>Año</th>
+            <th>Incremento</th>
+            <th>Incremento Porcentaje</th>
+        </tr>
+        {% for year, incremento_info in resultados.incrementos_anuales.items() %}
+        <tr>
+            <td>{{ year }}</td>
+            <td>{{ incremento_info.incremento }}</td>
+            <td>{{ incremento_info.incremento_porcentaje }}%</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Impacto en Categorías</h2>
+    <p>Impacto de fortalezas en 2021: {{ resultados.impacto_fortalezas_2021 }}</p>
+    <p>Impacto de oportunidades en 2021: {{ resultados.impacto_oportunidades_2021 }}</p>
+    <p>Impacto de debilidades en 2021: {{ resultados.impacto_debilidades_2021 }}</p>
+    <p>Impacto de amenazas en 2021: {{ resultados.impacto_amenazas_2021 }}</p>
+
+    <p>Impacto de fortalezas en 2022: {{ resultados.impacto_fortalezas_2022 }}</p>
+    <p>Impacto de oportunidades en 2022: {{ resultados.impacto_oportunidades_2022 }}</p>
+    <p>Impacto de debilidades en 2022: {{ resultados.impacto_debilidades_2022 }}</p>
+    <p>Impacto de amenazas en 2022: {{ resultados.impacto_amenazas_2022 }}</p>
 </body>
 </html>
