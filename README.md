@@ -12,7 +12,7 @@ README.md: Es el texto con las especificaciones del modelo.
  Para activar desde Flask, esta aplicación que se encuentra en un repositorio de GitHub, por ejemplo, desde Visual Studio Code, se pueden seguir los pasos:
     1. Clonar el repositorio: Abrir Visual Studio Code y clonar el repositorio de GitHub que contiene la aplicación (Flask). Esto se puede hacer  desde la barra lateral de Visual Studio Code haciendo clic en el icono de Git (tercer icono de la izquierda) y luego en "Clonar Repositorio". Se ingresa la URL del repositorio y se selecciona una ubicación local para clonarlo.
     2. Configurar el entorno virtual (opcional): Es recomendable la utilización de un entorno virtual para la aplicación Flask. Particularmente el autor de la aplicación, usa una máquina virtual Ubuntu de Linux. Si se elige hacerlo desde terminal de Visual Studio Code, se debe navegar hasta la carpeta del proyecto y crear un entorno virtual con el siguiente comando (reemplaza "venv" con el nombre que desees para el entorno virtual):
-       Copy code
+      
        python -m venv venv
        Luego, dependiendo del sistema operativo, activar el entorno virtual con:
         - En Windows:
@@ -40,7 +40,7 @@ Si la aplicación requiere configuraciones adicionales, como la conexión a una 
 Abrir la terminal:
 Puedes abrir la terminal presionando Ctrl + Alt + T o buscando "Terminal" en el menú de aplicaciones.
 
-Navega al directorio de tu aplicación:
+Navegar al directorio de tu aplicación:
 Utiliza el comando cd para navegar al directorio donde estan almacenados los archivos de la aplicación Flask. Por ejemplo, si la aplicación está en el directorio mi_app, ejecuta:
 
 bash
