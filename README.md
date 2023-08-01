@@ -41,7 +41,7 @@ Abrir la terminal:
 Puedes abrir la terminal presionando Ctrl + Alt + T o buscando "Terminal" en el menú de aplicaciones.
 
 Navega al directorio de tu aplicación:
-Utiliza el comando cd para navegar al directorio donde tienes almacenados los archivos de tu aplicación Flask. Por ejemplo, si tu aplicación está en el directorio mi_app, ejecuta:
+Utiliza el comando cd para navegar al directorio donde estan almacenados los archivos de la aplicación Flask. Por ejemplo, si la aplicación está en el directorio mi_app, ejecuta:
 
 bash
 cd /ruta/a/tu/directorio/mi_app
@@ -67,6 +67,6 @@ Detener el servidor Flask:
 Para detener el servidor Flask, se presiona Ctrl + C en la terminal donde se está ejecutando. Esto detendrá el servidor y dejará de servir la aplicación.
 
 
-A partir de aquí, se deben preparar los datos de entrada si se hacen predicciones sobre nuevos datos de forma adecuada para que sean compatibles con el modelo entrenado. La interfaz web tiene un displey para cargar el archivo CSV y luego posee uno para mostrar los resultados presionando el botón de cálculo. Se deben proveer los valores numéricos enteros de las FORTALEZAS, OPORTUNIDADES, DEBILIDADES y AMENAZAS. Luego, la aplicación devuelve la predicción sobre el incremento de producción del año a anticipar y su incremento de producción porcentual junto a los impactos sobre las FORTALEZAS, OPORTUNIDADES, DEBILIDADES y AMENAZAS sobre el mismo año.
+A partir de aquí, se deben preparar los datos de entrada si se hacen predicciones sobre nuevos datos de forma adecuada para que sean compatibles con el modelo entrenado. La interfaz web tiene un displey para cargar el archivo CSV y luego posee uno para mostrar los resultados presionando el botón de cálculo. Se deben proveer los valores numéricos enteros de las FORTALEZAS, OPORTUNIDADES, DEBILIDADES y AMENAZAS. Luego, la aplicación devuelve la predicción sobre el incremento de producción del año a anticipar y su incremento de producción porcentual junto a los impactos sobre las FORTALEZAS, OPORTUNIDADES, DEBILIDADES y AMENAZAS sobre el mismo año. Desde distintos criterios de asignación de valores en las variables FODA necesariamente se obtendrán distintos resultados para sacar diferentes conclusiones, lo cual permite que la aplicación sea valida en cualquier caso.
  
 Este es un proyecto realizado por Julio Mariano Sachi de TCDIA en el ISPC.
