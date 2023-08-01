@@ -1,4 +1,4 @@
-# Una medición de impacto de políticas de innovación energética 
+# Una medición de impacto en la fluctuación de incrementos de producción energética de energías renovables
 Este es un proyecto de software para medir posible impacto en políticas de innovación energética. 
 Se realizará un analisis de datos para detectar el impacto producido en el mercado en las fluctuaciones de los incrementos de energías renovables en Nueva Zelanda tomando datasets publicados por el mismo gobierno. Seguidamente se aplicarán los datos resultantes a una matriz DAFO para medir y sacar conclusiones sobre dicho impacto.
 Estructura del repositorio:
