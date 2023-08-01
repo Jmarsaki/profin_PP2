@@ -15,11 +15,11 @@ README.md: Es el texto con las especificaciones del modelo.
        Copy code
        python -m venv venv
        Luego, dependiendo del sistema operativo, activar el entorno virtual con:
-        ◦ En Windows:
+        - En Windows:
         
           venv\Scripts\activate
           
-        ◦ En macOS o Linux:
+        - En macOS o Linux:
         
           bash
           
