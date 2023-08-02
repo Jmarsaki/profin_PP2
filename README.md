@@ -4,9 +4,9 @@ Para ello se realizará un analisis de datos para detectar el impacto producido 
 Estructura del repositorio:
 Carpeta "documentos": Contendrá archivos referentes al desarrollo, la instalación de paquetes necesariós u opcionales y al  manejo de la aplicación .
 Carpeta "data": Contendrá los conjuntos de datos utilizados para el entrenamiento y evaluación en la realización del modelo.
-Carpeta "testing": Contendrá los script de testing del modelo.
+Carpeta "testing": Contendrá los script de testing (de evaluación, pretrain, posttrain, test estático y test unitario) del modelo.
 Carpeta "medimpapp_train": Contendrá el código fuente para entrenamiento del modelo.
-Archivo "main": Contiene al código fuente de la aplicación en lenguaje Python y los recursos necesarios para montarlo como aplicación desde Flask.
+Archivo "main": Contiene al código fuente de la aplicación en lenguaje Python y los recursos necesarios para montarlo como aplicación desde Flask y archivo del modelo entrenado.
 README.md: Es el texto con las especificaciones del modelo.
  # Indicaciones para poner en marcha la aplicación
  Para activar desde Flask, esta aplicación que se encuentra en un repositorio de GitHub, por ejemplo, desde Visual Studio Code, se pueden seguir los pasos:
