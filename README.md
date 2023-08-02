@@ -1,6 +1,6 @@
 # Un modelo de medición y predicción de impacto desde el incremento de la producción de energías renovables
 Este es un proyecto de software que sirve para medir los posibles impactos de distintas políticas en innovación energética. 
-Se realizará un analisis de datos para detectar el impacto producido en el mercado en las fluctuaciones de los incrementos de energías renovables en Nueva Zelanda, tomando datasets publicados por ese mismo gobierno. Seguidamente se aplicarán los datos resultantes a una matriz DAFO para medir y poder sacar conclusiones sobre dicho impacto.
+Para ello se realizará un analisis de datos para detectar el impacto producido en el mercado en las fluctuaciones de los incrementos de energías renovables en Nueva Zelanda, tomando datasets publicados por ese mismo gobierno. Seguidamente se aplicarán los datos resultantes a una matriz DAFO para medir y poder sacar conclusiones sobre dicho impacto. Este modelo podrá aplicarse luego para cualquier país o empresa con dicha estructura básica de producción energética.
 Estructura del repositorio:
 Carpeta "documentos": Contendrá archivos referentes al control y al manejo de la aplicación.
 Carpeta "data": Contendrá los conjuntos de datos utilizados para el entrenamiento y evaluación en la realización del modelo.
