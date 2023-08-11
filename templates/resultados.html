@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados del Cálculo</title>
+</head>
+<body>
+    <h1>Resultados del Cálculo</h1>
+    <p>Incremento anual de data_value:</p>
+    {% for year, incremento_info in resultados['incrementos_anuales'].items() %}
+        <p>Año {{ year }}: Incremento: {{ incremento_info.incremento }}, Porcentaje: {{ incremento_info.incremento_porcentaje }}%</p>
+    {% endfor %}
+
+    <h2>Resultados para el año 2022:</h2>
+    <p>Año 2022:</p>
+    <p>Incremento: {{ resultados['incremento_2022'] }}, Porcentaje: {{ resultados['incremento_porcentaje_2022'] }}%</p>
+    
+    <h2>Impacto del incremento de producción en cada categoría:</h2>
+    <p>Impacto en Fortalezas 2021: {{ resultados['impacto_fortalezas_2021'] }}%</p>
+    <p>Impacto en Oportunidades 2021: {{ resultados['impacto_oportunidades_2021'] }}%</p>
+    <p>Impacto en Debilidades 2021: {{ resultados['impacto_debilidades_2021'] }}%</p>
+    <p>Impacto en Amenazas 2021: {{ resultados['impacto_amenazas_2021'] }}%</p>
+    <p>Impacto en Fortalezas 2022: {{ resultados['impacto_fortalezas_2022'] }}%</p>
+    <p>Impacto en Oportunidades 2022: {{ resultados['impacto_oportunidades_2022'] }}%</p>
+    <p>Impacto en Debilidades 2022: {{ resultados['impacto_debilidades_2022'] }}%</p>
+    <p>Impacto en Amenazas 2022: {{ resultados['impacto_amenazas_2022'] }}%</p>
+</body>
+</html>
