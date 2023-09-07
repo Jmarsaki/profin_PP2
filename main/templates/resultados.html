@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados</title>
+</head>
+<body>
+    <h1>Resultados</h1>
+    <h2>Predicción para el Año 2022:</h2>
+    <p>Valor Predicho: {{ resultados.prediccion_2022 }}</p>
+    <p>Incremento para el Año 2022: {{ resultados.incremento_2022 }}</p>
+    <p>Incremento Porcentaje para el Año 2022: {{ resultados.incremento_porcentaje_2022 }}%</p>
+
+    <h2>Incrementos Anuales:</h2>
+    <ul>
+        {% for year, incremento in resultados.incrementos_anuales.items() %}
+            <li>Año {{ year }}: Incremento {{ incremento.incremento }} ({{ incremento.incremento_porcentaje }}%)</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Impacto en Categorías:</h2>
+    <p>Impacto en Fortalezas 2021: {{ resultados.impacto_fortalezas_2021 }}</p>
+    <p>Impacto en Oportunidades 2021: {{ resultados.impacto_oportunidades_2021 }}</p>
+    <p>Impacto en Debilidades 2021: {{ resultados.impacto_debilidades_2021 }}</p>
+    <p>Impacto en Amenazas 2021: {{ resultados.impacto_amenazas_2021 }}</p>
+
+    <p>Impacto en Fortalezas 2022: {{ resultados.impacto_fortalezas_2022 }}</p>
+    <p>Impacto en Oportunidades 2022: {{ resultados.impacto_oportunidades_2022 }}</p>
+    <p>Impacto en Debilidades 2022: {{ resultados.impacto_debilidades_2022 }}</p>
+    <p>Impacto en Amenazas 2022: {{ resultados.impacto_amenazas_2022 }}</p>
+</body>
+</html>
+
+
+
