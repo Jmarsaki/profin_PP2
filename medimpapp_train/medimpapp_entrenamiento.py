@@ -1,6 +1,3 @@
-
-##Proyecto de software para medir impacto de innovación en energía
-"""
 ##MEDIMPAPP: Proyecto de software para medir posible impacto de políticas de innovación en energía
 
 #Rama entrenamiento
