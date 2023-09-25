@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Production Analysis Results</title>
+</head>
+<body>
+    <h1>Production Analysis Results</h1>
+    <p>Prediction for 2022: {{ resultados.prediccion_2022 }}</p>
+    <p>Increment for 2022: {{ resultados.incremento_2022 }}</p>
+    <p>Percentage Increment for 2022: {{ resultados.incremento_porcentaje_2022 }}%</p>
+    <h2>Annual Production Increments</h2>
+    <ul>
+        {% for year, increment in resultados.incrementos_anuales.items() %}
+            <li>Year {{ year }}: Increment {{ increment.incremento }}, Percentage Increment {{ increment.incremento_porcentaje }}%</li>
+        {% endfor %}
+    </ul>
+    <h2>Impact of Production Increase</h2>
+    <p>Impact of Production Increase in 2021:</p>
+    <ul>
+        <li>Fortalezas: {{ resultados.impacto_fortalezas_2021 }}</li>
+        <li>Oportunidades: {{ resultados.impacto_oportunidades_2021 }}</li>
+        <li>Debilidades: {{ resultados.impacto_debilidades_2021 }}</li>
+        <li>Amenazas: {{ resultados.impacto_amenazas_2021 }}</li>
+    </ul>
+    <p>Impact of Production Increase in 2022:</p>
+    <ul>
+        <li>Fortalezas: {{ resultados.impacto_fortalezas_2022 }}</li>
+        <li>Oportunidades: {{ resultados.impacto_oportunidades_2022 }}</li>
+        <li>Debilidades: {{ resultados.impacto_debilidades_2022 }}</li>
+        <li>Amenazas: {{ resultados.impacto_amenazas_2022 }}</li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
+
