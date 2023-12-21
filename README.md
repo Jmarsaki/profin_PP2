@@ -16,6 +16,7 @@ README.md: Es el texto con las especificaciones del modelo.
       
        
        Luego, dependiendo del sistema operativo, activar el entorno virtual con:
+       
         - En Windows:
         
           venv\Scripts\activate
@@ -29,8 +30,7 @@ README.md: Es el texto con las especificaciones del modelo.
     4. Definir el archivo de entrada: Asegurarse de que  aplicación tenga un archivo de entrada principal. Por convención, se llamará "app.py", pero puede tener otro nombre. Este archivo debe contener la instancia de la aplicación y todas las rutas y lógica de la aplicación.
     5. Ejecutar la aplicación: Desde la terminal de Visual Studio Code, navegar hasta el directorio que contiene el archivo de entrada de la aplicación y ejecutar el siguiente comando:
       
-    
-       flask run
+        flask run
        
        Esto iniciará el servidor de desarrollo de Flask y la aplicación ya estará activa en http://127.0.0.1:5000/. Se puede acceder a la aplicación desde el navegador web visitando esa dirección.
 Si la aplicación requiere configuraciones adicionales, como la conexión a una base de datos o la configuración de variables de entorno, se deben realizar los pasos adicionales antes de ejecutar la aplicación.
