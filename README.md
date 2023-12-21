@@ -16,6 +16,7 @@ README.md: Es el texto con las especificaciones del modelo.
       
        
        Luego, dependiendo del sistema operativo, activar el entorno virtual con:
+       python -m venv venv
        
         - En Windows:
         
