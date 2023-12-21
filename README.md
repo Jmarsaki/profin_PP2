@@ -47,7 +47,6 @@ Donde nombre_entorno_virtual es el nombre del directorio de tu entorno virtual.
 Ejecutar la aplicación:
 Utilizar el comando flask run para ejecutar tu aplicación Flask:
 
-arduino
 flask run
 Si todo está configurado correctamente, se verá un mensaje indicando que el servidor se está ejecutando y en qué dirección IP y puerto está escuchando. Flask se ejecuta en http://127.0.0.1:5000/ por defecto.
 
