@@ -6,14 +6,15 @@ Carpeta "documentos": Contendrá archivos referentes al desarrollo, la instalaci
 Carpeta "data": Contendrá los conjuntos de datos utilizados para el entrenamiento y evaluación en la realización del modelo.
 Carpeta "testing": Contendrá los script de testing (de evaluación, pretrain, posttrain, test estático y test unitario) del modelo.
 Carpeta "medimpapp_train": Contendrá el código fuente para entrenamiento del modelo.
-Archivo "main": Contiene al código fuente de la aplicación en lenguaje Python y los recursos necesarios para montarlo como aplicación desde Flask y archivo del modelo entrenado.
+Carpeta "document": Contendrá documentación como el manual para la instalación del entorno virtual y el historial de desarrollo.
+Archivo "main": Contiene al código fuente de la aplicación en lenguaje Python y los recursos necesarios para montarlo como aplicación desde Flask, el archivo del modelo entrenado, la carpeta con las plantillas o templates en .html, la carpeta statics con los recursos de imagen y texto del framework de Flask. Además dentro del directorio en el mismo nivel se encuentran los 3 archivos para guardar el modelo de autoregresión (AR) ya entrenado y el archivo de texto perteneciente al "requirements"
 README.md: Es el texto con las especificaciones del modelo.
  # Indicaciones para poner en marcha la aplicación
  Para activar desde Flask, esta aplicación que se encuentra en un repositorio de GitHub, por ejemplo, desde Visual Studio Code, se pueden seguir los pasos:
     1. Clonar el repositorio: Abrir Visual Studio Code y clonar el repositorio de GitHub que contiene la aplicación (Flask). Esto se puede hacer  desde la barra lateral de Visual Studio Code haciendo clic en el icono de Git (tercer icono de la izquierda) y luego en "Clonar Repositorio". Se ingresa la URL del repositorio y se selecciona una ubicación local para clonarlo.
-    2. Configurar el entorno virtual (opcional): Es recomendable la utilización de un entorno virtual para la aplicación Flask. Particularmente el autor de la aplicación, usa una máquina virtual Ubuntu de Linux. Si se elige hacerlo desde terminal de Visual Studio Code, se debe navegar hasta la carpeta del proyecto y crear un entorno virtual con el siguiente comando (reemplaza "venv" con el nombre que desees para el entorno virtual):
+    2. Configurar el entorno virtual (opcional): Es recomendable la utilización de un entorno virtual para la aplicación Flask.  Se puede elegir la consola de Python API, la terminal de Window o una máquina virtual Ubuntu de Linux. Desde la terminal de Visual Studio Code, se debe navegar hasta la carpeta del proyecto y crear un entorno virtual con el siguiente comando (reemplaza "venv" con el nombre que desees para el entorno virtual):
       
-       python -m venv venv
+       
        Luego, dependiendo del sistema operativo, activar el entorno virtual con:
         - En Windows:
         
@@ -21,16 +22,14 @@ README.md: Es el texto con las especificaciones del modelo.
           
         - En macOS o Linux:
         
-          bash
-          
-          source venv/bin/activate
+        source venv/bin/activate
           
     3. Instalar las dependencias: Asegúrarse de que todas las dependencias requeridas para la aplicación con Flask estén instaladas en el entorno virtual. Se pueden instalar desde el archivo "requirements.txt" con el siguiente comando:
        pip install -r requirements.txt
     4. Definir el archivo de entrada: Asegurarse de que  aplicación tenga un archivo de entrada principal. Por convención, se llamará "app.py", pero puede tener otro nombre. Este archivo debe contener la instancia de la aplicación y todas las rutas y lógica de la aplicación.
     5. Ejecutar la aplicación: Desde la terminal de Visual Studio Code, navegar hasta el directorio que contiene el archivo de entrada de la aplicación y ejecutar el siguiente comando:
       
-       arduino
+    
        flask run
        
        Esto iniciará el servidor de desarrollo de Flask y la aplicación ya estará activa en http://127.0.0.1:5000/. Se puede acceder a la aplicación desde el navegador web visitando esa dirección.
@@ -56,7 +55,6 @@ Donde nombre_entorno_virtual es el nombre del directorio de tu entorno virtual.
 Ejecutar la aplicación:
 Utilizar el comando flask run para ejecutar tu aplicación Flask:
 
-arduino
 flask run
 Si todo está configurado correctamente, se verá un mensaje indicando que el servidor se está ejecutando y en qué dirección IP y puerto está escuchando. Flask se ejecuta en http://127.0.0.1:5000/ por defecto.
 
